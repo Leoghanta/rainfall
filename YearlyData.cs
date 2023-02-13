@@ -10,6 +10,9 @@ namespace rainfall
 	{
 		Rainfall year2022 = new Rainfall();
 
+		/// <summary>
+		/// Constructor to add the yearly data to the array and display statistics for the year
+		/// </summary>
 		public YearlyData()
 		{
 			InputRainData();
@@ -40,6 +43,10 @@ namespace rainfall
 
 		}
 
+		/// <summary>
+		/// Input rain data into the array.
+		/// TODO: add error checking using Valid Input algorithm.
+		/// </summary>
 		public void InputRainData()
 		{
 			int rainAmount = 0;
